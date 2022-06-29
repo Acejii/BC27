@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import HelloWorld from "./1_Components/HelloWorld";
+import Greeting from "./1_Components/Greeting";
+import Home from "./1_Ex_HomePage/Home";
+import Msi from "./1_Ex_MSI/Msi";
+import DataBinding from "./2_DataBinding/DataBinding";
 function App() {
+  // 1. Component
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <div className="helloWorld text-center text-primary">
+    //   <HelloWorld />
+    //   <Greeting />
+    // </div>
+    // <Home />
+    // <Msi />
+    <DataBinding />
   );
 }
 
